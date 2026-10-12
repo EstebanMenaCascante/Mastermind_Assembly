@@ -1,0 +1,42 @@
+# ==========================
+# ⚙️ Java y Maven
+# ==========================
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# 🧠 NetBeans
+# ==========================
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.netbeans/
+*.orig
+
+# ==========================
+# 🧩 IDEs y entornos
+# ==========================
+**/.idea/
+*.iml
+*.ipr
+*.iws
+**/.vscode/
+
+# ==========================
+# 🖼️ Archivos del sistema
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# 💬 Sistema de notificaciones (si genera archivos)
+# ==========================
+/outbox/
