@@ -1,42 +1,58 @@
 # ==========================
-# ⚙️ Java y Maven
+# Archivos generados por TASM / TLINK
+# (git distingue mayusculas, por eso van ambas versiones)
 # ==========================
-**/target/
-!.mvn/wrapper/maven-wrapper.jar
-**/logs/
-*.log
-*.class
-*.jar
-*.war
-*.ear
+*.obj
+*.OBJ
+*.map
+*.MAP
+*.lst
+*.LST
+*.crf
+*.CRF
+*.xrf
+*.XRF
 
 # ==========================
-# 🧠 NetBeans
+# Ejecutables
+# Se ignoran en cualquier lugar, excepto /bin (entregable E2)
+# y /herramientas (si se incluyen TASM/TLINK/TD)
 # ==========================
-**/nbproject/private/
-**/build/
-**/nbbuild/
-**/dist/
-**/nbdist/
-**/.netbeans/
-*.orig
+*.exe
+*.EXE
+*.com
+*.COM
+!bin/*.exe
+!bin/*.EXE
+!bin/*.com
+!bin/*.COM
+!herramientas/**
 
 # ==========================
-# 🧩 IDEs y entornos
+# Turbo Debugger (archivos de sesion y configuracion)
+# ==========================
+*.td
+*.TD
+*.tr
+*.TR
+*.tds
+*.TDS
+!herramientas/**
+
+# ==========================
+# IDEs y entornos
 # ==========================
 **/.idea/
 *.iml
-*.ipr
-*.iws
 **/.vscode/
 
 # ==========================
-# 🖼️ Archivos del sistema
+# Archivos del sistema
 # ==========================
 .DS_Store
 Thumbs.db
 
 # ==========================
-# 💬 Sistema de notificaciones (si genera archivos)
+# Sistema de notificaciones (si genera archivos)
 # ==========================
 /outbox/
